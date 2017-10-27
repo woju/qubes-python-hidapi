@@ -1,0 +1,23 @@
+Source: hidapi-cffi
+Maintainer: Aigars Mahinovs <aigarius@debian.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python3-setuptools, python-all (>= 2.6.6-3), python3-all, debhelper (>= 9), dh-python, python-cffi, python3-cffi, python-dev, python3-dev, libhidapi-dev
+Standards-Version: 3.9.6
+
+Package: python-hidapi
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, libhidapi-hidraw0 | libhidapi-libusb0, python-cffi (>= 0.8)
+Description: Python bindings for the HID API
+ Python bindings for libhidapi for working with Human Interface Devices
+ such as mouses and keyboards.
+
+Package: python3-hidapi
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, libhidapi-hidraw0 | libhidapi-libusb0, python3-cffi (>= 0.8)
+Description: Python bindings for the HID API
+ Python bindings for libhidapi for working with Human Interface Devices
+ such as mouses and keyboards.
+ .
+ Python3 version.
+

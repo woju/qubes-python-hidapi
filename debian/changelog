@@ -1,0 +1,13 @@
+hidapi-cffi (0.2.1-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add missing dependencies on python{3,}-cffi,
+    patch from Stefano Rivera. (Closes: #836907)
+
+ -- Adrian Bunk <bunk@debian.org>  Fri, 13 Jan 2017 15:59:36 +0200
+
+hidapi-cffi (0.2.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Aigars Mahinovs <aigarius@debian.org>  Thu, 25 Jun 2015 22:54:33 +0300
